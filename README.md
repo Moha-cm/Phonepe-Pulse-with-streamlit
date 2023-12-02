@@ -26,11 +26,35 @@ The Phonepe pulse Github repository contains a large amount of data  information
 6. **Data Analysis**
    - Develop a comprehensive dashboard that facilitates an effective and insightful analysis of the data.
 
-## Results
+## Pyhton packages
+```
+pip install pandas
 
-The result of this project will be a live geo visualization dashboard that displays information and insights from the Phonepe pulse Github repository in an interactive and visually appealing manner. ...
+pip install streamlit
 
-## Usage
+Pip install sqlalchemy
 
-Provide instructions on how to run and use your solution. Include any dependencies, configuration steps, etc.
+pip install PyMySQL
 
+pip isstall git
+
+pip install plotly
+```
+
+Dowload the source files from repo  and  use the bellow commandas to run
+
+## Script Execution
+## Data Extraction and Transformation
+
+Run the following commands to extract and transform data related to users:
+```
+python .\Transaction_database.py
+python .\users_datase.py
+```
+This script employs scripting to clone the Phonepe Pulse GitHub repository, then extracts users and transaction  data and store in database. 
+
+## Run the application using the following command
+```
+streamlit run ./home.py
+``
+This will launch the Streamlit application.
