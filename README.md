@@ -56,5 +56,5 @@ This script employs scripting to clone the Phonepe Pulse GitHub repository, then
 ## Run the application using the following command
 ```
 streamlit run ./home.py
-``
+```
 This will launch the Streamlit application.
